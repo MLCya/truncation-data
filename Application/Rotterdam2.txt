@@ -1,0 +1,34 @@
+pid:   Patient ID number
+year: Year of surgery
+rf: Relapse free interval
+rfi: Relapse indicator
+mf: Metastasis free
+mfi: Metastasis status
+os:Overall survival(m)
+osi:Overall survival
+age: age at surgery
+meno:pre/post meno 、、、、、、、、 绝经状态
+size: tumour size, 3 class(t)
+grade:differentiation grade
+nodes:number of positive nodes
+pr:PgR(fmol/l)
+er:(fmol/l)
+hormon:  Hormonal therapy
+chemo: Chemo therapy
+enodes:exp(-0.12*nodes)
+pr_1:log(pr+1)
+enodes_1:enodes^2
+recent: year of surgery, dichotomized
+_st:
+_d:
+_t:
+_t0:
+
+
+
+
+
+
+
+
+
